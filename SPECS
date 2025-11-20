@@ -1,0 +1,34 @@
+                   ┌─────────────────────┐
+                   │  Morningstar        │
+                   │     MC8 Pro         │
+                   │ 4 Omniports + 5-pin │
+                   └───────┬─────────────┘
+                           │
+       ┌───────────────────┼──────────────────────────────────────────────┐
+       │                   │                           │                  │
+       ▼                   ▼                           ▼                  ▼
+Blooper [Ring-Active MIDI IN]  Cloudburst [Standard Type A MIDI IN]  Mood MK II [Ring-Active MIDI IN]  Lost & Found [Ring-Active MIDI IN]
+
+                           │
+                           ▼
+                       Timeline [5-pin MIDI IN] ──▶ MIDI THRU (5-pin) ──▶ GT-1000 Core [3.5mm MIDI IN] ──▶ MIDI THRU (3.5mm) ──▶ Arturia MicroFreak [3.5mm MIDI IN]
+
+──────────────────────────────────────────────────────────────
+Audio Path
+──────────────────────────────────────────────────────────────
+[Guitar] ──▶ LS-2 Input
+             ├─A Output──▶ FX Loop 1 ──▶ GT-1000 Core ──▶ Return A (LS-2)
+             │
+             └─B Output──▶ Sonic Cake ABY Box ──▶ FX Loop 2 ──▶ Timeline ─▶ Cloudburst ─▶ Mood MK II ─▶ Source Audio EQ2 ─▶ Return B (LS-2)
+
+Arturia MicroFreak ───────────┘ (joined via Sonic Cake ABY Box for FX Loop 2)
+
+LS-2 Output ──▶ Blooper ─▶ AER Alpha Amp 
+
+
+
+
+
+
+
+
