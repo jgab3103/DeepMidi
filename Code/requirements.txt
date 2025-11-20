@@ -1,0 +1,10 @@
+mido
+python-rtmidi
+python-osc
+aiofiles
+pyyaml
+pytz
+numpy
+tensorflow
+pandas
+scikit-learn
